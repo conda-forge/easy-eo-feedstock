@@ -1,6 +1,6 @@
 context:
   name: easy-eo
-  version: "0.3.1"
+  version: "0.4.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/easy_eo-${{ version }}.tar.gz
-  sha256: 0ba5254ba9cef1f504ddec284091a7c0f94b176667cb506d4d2b6286306bde36
+  sha256: f2c8cfa3167bf04c57f035be05ee462b828659e2aa453353f745e852432e3e08
 
 build:
   noarch: python
