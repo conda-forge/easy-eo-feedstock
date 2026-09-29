@@ -1,6 +1,6 @@
 context:
   name: easy-eo
-  version: "0.5.0"
+  version: "0.6.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/easy_eo-${{ version }}.tar.gz
-  sha256: 7fe9c4a7ec29c77a14c8731d2af8e43e1550b07d5197f50342fb79643ad3cda7
+  sha256: b3da3ea55b6de23051d880dcc9bea56addb6089414e839b312548808870a67d7
 
 build:
   noarch: python
@@ -26,6 +26,7 @@ requirements:
     - geopandas >=1.1,<2
     - numpy >=1.26,<3
     - matplotlib-base >=3.8
+    - pandas >=2.0
 
 tests:
   - python:
