@@ -26,6 +26,7 @@ requirements:
     - geopandas >=1.1,<2
     - numpy >=1.26,<3
     - matplotlib-base >=3.8
+    - pandas >=2.0
 
 tests:
   - python:
